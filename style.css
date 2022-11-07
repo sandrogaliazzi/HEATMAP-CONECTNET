@@ -1,6 +1,15 @@
-#map {
-    height: 100%;
+#map_canvas {
+  height: 100%;
+  margin-top: 50px;
+}
+  a {
+    cursor: pointer;
+    
   }
+#teste {
+margin-top: 100px;
+}
+
 
   html,
   body {
@@ -9,7 +18,7 @@
     padding: 0;
   }
 
-  #floating-panel {
+  /* #floating-panel {
     position: absolute;
     top: 10px;
     left: 25%;
@@ -31,4 +40,4 @@
     position: absolute;
     top: 50px;
     z-index: 5;
-  }
+  } */
