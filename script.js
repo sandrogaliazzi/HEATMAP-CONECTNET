@@ -1380,8 +1380,68 @@ function initialize() {
     center: new google.maps.LatLng(-29.580137, -50.901022),
     mapTypeId: google.maps.MapTypeId.SATELLITE,
   };
-
   map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  const input = document.getElementById('pac-input');
+  const searchBox = new google.maps.places.SearchBox(input);
+
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  // Bias the SearchBox results towards current map's viewport.
+  map.addListener('bounds_changed', () => {
+    searchBox.setBounds(map.getBounds());
+  });
+
+  let markers = [];
+
+  // Listen for the event fired when the user selects a prediction and retrieve
+  // more details for that place.
+  searchBox.addListener('places_changed', () => {
+    const places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+
+    // Clear out the old markers.
+    markers.forEach(marker => {
+      marker.setMap(null);
+    });
+    markers = [];
+
+    // For each place, get the icon, name and location.
+    const bounds = new google.maps.LatLngBounds();
+
+    places.forEach(place => {
+      if (!place.geometry || !place.geometry.location) {
+        console.log('Returned place contains no geometry');
+        return;
+      }
+
+      const icon = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25),
+      };
+
+      // Create a marker for each place.
+      markers.push(
+        new google.maps.Marker({
+          map,
+          icon,
+          title: place.name,
+          position: place.geometry.location,
+        })
+      );
+      if (place.geometry.viewport) {
+        // Only geocodes have viewport.
+        bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
+      }
+    });
+    map.fitBounds(bounds);
+  });
 
   pointArray = new google.maps.MVCArray(data);
 
@@ -1410,7 +1470,7 @@ function initialize() {
   document
     .getElementById('get-location')
     .addEventListener('click', getLocation, showPosition);
-  }
+}
 
 var circles = [];
 function circleTest() {
@@ -1482,45 +1542,43 @@ function showPosition(position) {
   });
 
   let infoWindow = new google.maps.InfoWindow({
-  content: "Clique no mapa para saber a Latitude e longitude!",
-  position: new google.maps.LatLng(lat, lng),
- });  
+    content: 'Clique no mapa para gerar o link no maps!',
+    position: new google.maps.LatLng(lat, lng),
+  });
 
- infoWindow.open(map);
-  
+  infoWindow.open(map);
+
   // Configure the click listener.
-  map.addListener("click", (mapsMouseEvent) => {
-    
+  map.addListener('click', mapsMouseEvent => {
     // Close the current InfoWindow.
     infoWindow.close();
     // Create a new InfoWindow.
     infoWindow = new google.maps.InfoWindow({
-       position: mapsMouseEvent.latLng,
+      position: mapsMouseEvent.latLng,
     });
-    
-    const contentinfosaske = '<div id="content">' +
-   '<div id="siteNotice">' +
-   "</div>" +
-   '<div id="bodyContent">' +
-   '<p><a href="'+ "https://www.google.com/maps/search/?api=1&query=" + mapsMouseEvent.latLng.toJSON().lat + "," + mapsMouseEvent.latLng.toJSON().lng + '" target="_blank">'  +
-   "Abrir no Maps</a> " +
-   "</p>" +
-   "</div>" +
-   "</div>";
-    infoWindow.setContent(
-      contentinfosaske
-       );      
-     
-    infoWindow.open(map);
-    
-  });
-  
-}
 
+    const contentinfosaske =
+      '<div id="content">' +
+      '<div id="siteNotice">' +
+      '</div>' +
+      '<div id="bodyContent">' +
+      '<p><a href="' +
+      'https://www.google.com/maps/search/?api=1&query=' +
+      mapsMouseEvent.latLng.toJSON().lat +
+      ',' +
+      mapsMouseEvent.latLng.toJSON().lng +
+      '" target="_blank">' +
+      'Abrir no Maps</a> ' +
+      '</p>' +
+      '</div>' +
+      '</div>';
+    infoWindow.setContent(contentinfosaske);
+
+    infoWindow.open(map);
+  });
+}
 
 window.initialize = initialize;
 
-
- ///https://www.google.com/maps/search/?api=1&query=36.26577,-92.54324 
- ///assim deve ser a url pra compartilhar
-
+///https://www.google.com/maps/search/?api=1&query=36.26577,-92.54324
+///assim deve ser a url pra compartilhar
