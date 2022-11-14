@@ -1381,14 +1381,14 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.SATELLITE,
   };
   map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-  const input = document.getElementById('pac-input');
+  const input = document.getElementById('sasked');
   const searchBox = new google.maps.places.SearchBox(input);
 
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
-  // Bias the SearchBox results towards current map's viewport.
-  map.addListener('bounds_changed', () => {
-    searchBox.setBounds(map.getBounds());
-  });
+  // map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  // // Bias the SearchBox results towards current map's viewport.
+  // map.addListener('bounds_changed', () => {
+  //   searchBox.setBounds(map.getBounds());
+  // });
 
   let markers = [];
 

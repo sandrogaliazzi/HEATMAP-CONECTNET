@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-#description {
+/* #description {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
@@ -89,7 +89,7 @@ body {
 
 #target {
   width: 345px;
-}
+} */
 
 /* #floating-panel {
     position: absolute;
