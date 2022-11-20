@@ -1380,8 +1380,8 @@ function initialize() {
     center: new google.maps.LatLng(-29.580137, -50.901022),
     mapTypeId: google.maps.MapTypeId.SATELLITE,
   };
-  map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-  const input = document.getElementById('sasked');
+  map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+  const input = document.getElementById("sasked");
   const searchBox = new google.maps.places.SearchBox(input);
 
   // map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
@@ -1394,7 +1394,7 @@ function initialize() {
 
   // Listen for the event fired when the user selects a prediction and retrieve
   // more details for that place.
-  searchBox.addListener('places_changed', () => {
+  searchBox.addListener("places_changed", () => {
     const places = searchBox.getPlaces();
 
     if (places.length == 0) {
@@ -1402,7 +1402,7 @@ function initialize() {
     }
 
     // Clear out the old markers.
-    markers.forEach(marker => {
+    markers.forEach((marker) => {
       marker.setMap(null);
     });
     markers = [];
@@ -1410,9 +1410,9 @@ function initialize() {
     // For each place, get the icon, name and location.
     const bounds = new google.maps.LatLngBounds();
 
-    places.forEach(place => {
+    places.forEach((place) => {
       if (!place.geometry || !place.geometry.location) {
-        console.log('Returned place contains no geometry');
+        console.log("Returned place contains no geometry");
         return;
       }
 
@@ -1452,24 +1452,24 @@ function initialize() {
 
   heatmap.setMap(map);
 
-  google.maps.event.addListener(map, 'zoom_changed', function () {
+  google.maps.event.addListener(map, "zoom_changed", function () {
     heatmap.setOptions({ radius: getNewRadius() });
   });
   document
-    .getElementById('toggle-heatmap')
-    .addEventListener('click', toggleHeatmap);
+    .getElementById("toggle-heatmap")
+    .addEventListener("click", toggleHeatmap);
   document
-    .getElementById('change-gradient')
-    .addEventListener('click', changeGradient);
+    .getElementById("change-gradient")
+    .addEventListener("click", changeGradient);
   document
-    .getElementById('change-opacity')
-    .addEventListener('click', changeOpacity);
+    .getElementById("change-opacity")
+    .addEventListener("click", changeOpacity);
   document
-    .getElementById('change-radius')
-    .addEventListener('click', changeRadius);
+    .getElementById("change-radius")
+    .addEventListener("click", changeRadius);
   document
-    .getElementById('get-location')
-    .addEventListener('click', getLocation, showPosition);
+    .getElementById("get-location")
+    .addEventListener("click", getLocation, showPosition);
 }
 
 var circles = [];
@@ -1484,7 +1484,7 @@ function circleTest() {
       circles[i] = new google.maps.Circle({
         map: map,
         radius: desiredRadiusPerPointInMeters,
-        fillColor: '#000000',
+        fillColor: "#000000",
         center: data[i],
       });
   }
@@ -1496,38 +1496,38 @@ function toggleHeatmap() {
 
 function changeGradient() {
   const gradient = [
-    'rgba(0, 255, 255, 0)',
-    'rgba(0, 255, 255, 1)',
-    'rgba(0, 191, 255, 1)',
-    'rgba(0, 127, 255, 1)',
-    'rgba(0, 63, 255, 1)',
-    'rgba(0, 0, 255, 1)',
-    'rgba(0, 0, 223, 1)',
-    'rgba(0, 0, 191, 1)',
-    'rgba(0, 0, 159, 1)',
-    'rgba(0, 0, 127, 1)',
-    'rgba(63, 0, 91, 1)',
-    'rgba(127, 0, 63, 1)',
-    'rgba(191, 0, 31, 1)',
-    'rgba(255, 0, 0, 1)',
+    "rgba(0, 255, 255, 0)",
+    "rgba(0, 255, 255, 1)",
+    "rgba(0, 191, 255, 1)",
+    "rgba(0, 127, 255, 1)",
+    "rgba(0, 63, 255, 1)",
+    "rgba(0, 0, 255, 1)",
+    "rgba(0, 0, 223, 1)",
+    "rgba(0, 0, 191, 1)",
+    "rgba(0, 0, 159, 1)",
+    "rgba(0, 0, 127, 1)",
+    "rgba(63, 0, 91, 1)",
+    "rgba(127, 0, 63, 1)",
+    "rgba(191, 0, 31, 1)",
+    "rgba(255, 0, 0, 1)",
   ];
 
-  heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+  heatmap.set("gradient", heatmap.get("gradient") ? null : gradient);
 }
 
 function changeRadius() {
-  heatmap.set('radius', heatmap.get('radius') ? null : 200);
+  heatmap.set("radius", heatmap.get("radius") ? null : 200);
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 1.2);
+  heatmap.set("opacity", heatmap.get("opacity") ? null : 1.2);
 }
 
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else {
-    alert('Geolocation is not supported by this browser.');
+    alert("Geolocation is not supported by this browser.");
   }
 }
 
@@ -1538,18 +1538,18 @@ function showPosition(position) {
   new google.maps.Marker({
     position: new google.maps.LatLng(lat, lng),
     map,
-    title: 'Estou aqui!',
+    title: "Estou aqui!",
   });
 
   let infoWindow = new google.maps.InfoWindow({
-    content: 'Clique no mapa para gerar o link no maps!',
+    content: "Clique no mapa para gerar o link no maps!",
     position: new google.maps.LatLng(lat, lng),
   });
 
   infoWindow.open(map);
 
   // Configure the click listener.
-  map.addListener('click', mapsMouseEvent => {
+  map.addListener("click", (mapsMouseEvent) => {
     // Close the current InfoWindow.
     infoWindow.close();
     // Create a new InfoWindow.
@@ -1560,22 +1560,26 @@ function showPosition(position) {
     const contentinfosaske =
       '<div id="content">' +
       '<div id="siteNotice">' +
-      '</div>' +
+      "</div>" +
       '<div id="bodyContent">' +
       '<p><a href="' +
-      'https://www.google.com/maps/search/?api=1&query=' +
+      "https://www.google.com/maps/search/?api=1&query=" +
       mapsMouseEvent.latLng.toJSON().lat +
-      ',' +
+      "," +
       mapsMouseEvent.latLng.toJSON().lng +
       '" target="_blank">' +
-      'Abrir no Maps</a> ' +
-      '</p>' +
-      '</div>' +
-      '</div>';
+      "Abrir no Maps</a> " +
+      "</p>" +
+      "</div>" +
+      "</div>";
     infoWindow.setContent(contentinfosaske);
 
     infoWindow.open(map);
   });
+}
+
+function logout() {
+  window.location.href = "./index.html";
 }
 
 window.initialize = initialize;
