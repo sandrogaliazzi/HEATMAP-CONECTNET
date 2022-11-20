@@ -108,10 +108,9 @@
 
       const password = form.get("password");
 
-      if (!checkLogin(user, password)) {
-        alert("Usuário ou senha Inválidos");
-        formRef.reset();
-      }
+      checkLogin(user, password);
+
+      formRef.reset();
     });
 
     function checkLogin(username, password) {
@@ -122,13 +121,14 @@
       if (user) {
         window.location.href = `heatmap.html?login=${user ? "true" : "false"}`;
       } else {
-        return false;
+        alert("Usuário ou senha Inválidos");
       }
     }
 
     const users = [
       { user: "sandro", password: "f7ca1179cc89c868efa66923f0bf6bba" },
       { user: "guilherme", password: "5df3f03bf6c0e6476833d7491cb6e5f0" },
+      { user: "vendas", password: "61539cb06c5eae441972da212b7af1be" },
     ];
   </script>
 </html>
