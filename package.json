@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "parse-kml": "^1.0.1"
+  }
+}
