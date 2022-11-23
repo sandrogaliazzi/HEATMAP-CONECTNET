@@ -20,20 +20,20 @@
   <script src="./script.js" defer></script>
 
   <body onload="initialize()">
-    <!-- <div id="floating-panel">
-        <button id="toggle-heatmap">Ativar/Desativar Heatmap</button>
-        <button id="change-gradient">Mudar o gradiente</button>
-        <button id="change-radius">Mudar o raio</button>
-        <button id="change-opacity">Mudar opacidade</button>
-        <button id="get-location">Ir até mim</button>
-        <button onclick="circleTest()">Ativar/Desativar Circulos</button>
-      </div> -->
-    <!-- <input
-      id="pac-input"
-      class="controls"
-      type="text"
-      placeholder="Search Box"
-    /> -->
+    <div class="parent">
+      <div class="absolute">
+        <div class="d-flex gap-2">
+          <input
+            type="text"
+            class="form-control"
+            id="input-cto"
+            placeholder="CTO"
+            style="width: 80px"
+            onkeyup="filterCto(this.value)"
+          />
+        </div>
+      </div>
+    </div>
     <div id="map_canvas"></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid px-4">
@@ -67,13 +67,8 @@
             <li class="nav-item">
               <a id="get-location" class="nav-link">Ir até mim</a>
             </li>
-            <li class="nav-item">
-              <a onclick="circleTest()" class="nav-link"
-                >Ativar/Desativar Circulos</a
-              >
-            </li>
           </ul>
-          <form class="d-flex" onsubmit= "return false;" role="search">
+          <form class="d-flex" onsubmit="return false;" role="search">
             <input
               id="sasked"
               class="form-control me-2"
