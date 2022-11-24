@@ -54,6 +54,15 @@ function setMarkers() {
       })
     );
   });
+
+  markers.forEach((marker, i) => {
+    marker.addListener("click", () => {
+      getInfoWindow(marker.position, marker.title).open({
+        anchor: marker,
+        map,
+      });
+    });
+  });
 }
 
 //Mercator --BEGIN--
@@ -341,15 +350,6 @@ function filterCto(query) {
     );
 
     if (filterdMarkers.length) {
-      filterdMarkers.forEach((marker) => {
-        marker.addListener("click", () => {
-          getInfoWindow(marker.position, marker.title).open({
-            anchor: marker,
-            map,
-          });
-        });
-      });
-
       showMarkers(filterdMarkers);
       hideMarkers(markers.filter((marker) => !filterdMarkers.includes(marker)));
     }
