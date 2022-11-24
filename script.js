@@ -55,11 +55,19 @@ function setMarkers() {
     );
   });
 
-  markers.forEach((marker, i) => {
+  const infoWindows = [];
+
+  markers.forEach((marker) => {
     marker.addListener("click", () => {
-      getInfoWindow(marker.position, marker.title).open({
+      const infoWindow = getInfoWindow(marker.position, marker.title);
+      infoWindows.push(infoWindow);
+      infoWindow.open({
         anchor: marker,
         map,
+      });
+      isOpen = !isOpen;
+      infoWindows.forEach((info) => {
+        if (info.content != infoWindow.content) info.close();
       });
     });
   });
