@@ -279,19 +279,27 @@ function getLocation() {
 function showPosition(position) {
   var lat = position.coords.latitude;
   var lng = position.coords.longitude;
+  const image = "./images/street-view-icon.png";
   map.setCenter(new google.maps.LatLng(lat, lng));
-  new google.maps.Marker({
+  
+  let marker = new google.maps.Marker({
     position: new google.maps.LatLng(lat, lng),
     map,
     title: "Estou aqui!",
+    icon: image,
   });
 
+ let infosaske = new google.maps.LatLng(lat, lng).toJSON();
   let infoWindow = new google.maps.InfoWindow({
-    content: "Clique no mapa para gerar o link no maps!",
-    position: new google.maps.LatLng(lat, lng),
-  });
-
-  infoWindow.open(map);
+    content: `<a href="https://www.google.com/maps/search/?api=1&query=${infosaske.lat},${infosaske.lng}" target="_blank">Estou aqui!</a>`,
+  }); 
+  
+  marker.addListener("click", function(){
+    infoWindow.open({
+      anchor: marker,
+      map,
+    });
+  })  
 
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
@@ -307,14 +315,13 @@ function showPosition(position) {
       '<div id="siteNotice">' +
       "</div>" +
       '<div id="bodyContent">' +
-      '<p><a href="' +
+      '<a href="' +
       "https://www.google.com/maps/search/?api=1&query=" +
       mapsMouseEvent.latLng.toJSON().lat +
       "," +
       mapsMouseEvent.latLng.toJSON().lng +
       '" target="_blank">' +
-      "Abrir no Maps</a> " +
-      "</p>" +
+      "Estou Aqui!</a> " +
       "</div>" +
       "</div>";
     infoWindow.setContent(contentinfosaske);
