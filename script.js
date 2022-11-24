@@ -39,6 +39,7 @@ window.addEventListener("load", async () => {
 });
 
 const markers = [];
+const infoWindows = [];
 
 function setMarkers() {
   kmlData.forEach((data) => {
@@ -325,14 +326,30 @@ function logout() {
   window.location.href = "./index.html";
 }
 
+function getInfoWindow(coordinates, cto) {
+  const pos = coordinates.toJSON();
+  return new google.maps.InfoWindow({
+    content: `<a href="https://www.google.com/maps/search/?api=1&query=${pos.lat}, ${pos.lng}" target="_blank">${cto}<a/>`,
+  });
+}
+
 function filterCto(query) {
   let filterdMarkers = [];
-  if (query !== "") {
+  if (query != "") {
     filterdMarkers = markers.filter(
       (marker) => marker.title.indexOf(query.toUpperCase()) > -1
     );
 
     if (filterdMarkers.length) {
+      filterdMarkers.forEach((marker) => {
+        marker.addListener("click", () => {
+          getInfoWindow(marker.position, marker.title).open({
+            anchor: marker,
+            map,
+          });
+        });
+      });
+
       showMarkers(filterdMarkers);
       hideMarkers(markers.filter((marker) => !filterdMarkers.includes(marker)));
     }
