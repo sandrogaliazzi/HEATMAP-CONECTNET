@@ -6,6 +6,19 @@ let mapCoordinates = [];
 let toggleMarker = false;
 
 window.addEventListener("load", async () => {
+  if (checkLogin()) {
+    loadMap();
+  } else {
+    window.location.href = "./index.html";
+  }
+});
+
+function checkLogin() {
+  const token = window.localStorage.getItem("token");
+  return token ? true : false;
+}
+
+async function loadMap() {
   try {
     const ctos = await fetch("./kml/kml.json");
 
@@ -36,7 +49,7 @@ window.addEventListener("load", async () => {
   } catch (err) {
     console.error(err);
   }
-});
+}
 
 const markers = [];
 const infoWindows = [];
@@ -339,6 +352,7 @@ function hideMarkers(array) {
 }
 
 function logout() {
+  window.localStorage.clear();
   window.location.href = "./index.html";
 }
 
