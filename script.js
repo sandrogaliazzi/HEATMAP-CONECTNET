@@ -325,6 +325,7 @@ function showPosition(position) {
   map.addListener("click", (mapsMouseEvent) => {
     // Close the current InfoWindow.
     infoWindow.close();
+    marker.setMap(null);
     // Create a new InfoWindow.
     infoWindow = new google.maps.InfoWindow({
       position: mapsMouseEvent.latLng,
@@ -341,13 +342,16 @@ function showPosition(position) {
       "," +
       mapsMouseEvent.latLng.toJSON().lng +
       '" target="_blank">' +
-      "Estou Aqui!</a> " +
+      "Ir ao Maps!</a> " +
       "</div>" +
       "</div>";
     infoWindow.setContent(contentinfosaske);
 
     infoWindow.open(map);
+    
+    
   });
+  
 }
 
 function showMarkers(array) {
