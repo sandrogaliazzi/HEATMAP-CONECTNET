@@ -183,8 +183,8 @@ function initialize() {
     if (places.length == 0) {
       return;
     }
-
-    // // Clear out the old markers.
+   
+    // Clear out the old markers.
     // markers.forEach((marker) => {
     //   marker.setMap(null);
     // });
@@ -348,8 +348,7 @@ function showPosition(position) {
     infoWindow.setContent(contentinfosaske);
 
     infoWindow.open(map);
-    
-    
+        
   });
   
 }
