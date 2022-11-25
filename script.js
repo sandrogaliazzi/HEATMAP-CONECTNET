@@ -51,7 +51,7 @@ async function loadMap() {
   }
 }
 
-const markers = [];
+const markers = []; //problema
 const infoWindows = [];
 
 function setMarkers() {
@@ -184,12 +184,12 @@ function initialize() {
       return;
     }
 
-    // Clear out the old markers.
-    markers.forEach((marker) => {
-      marker.setMap(null);
-    });
-    markers = [];
-
+    // // Clear out the old markers.
+    // markers.forEach((marker) => {
+    //   marker.setMap(null);
+    // });
+    //  markers = []; //conflita com esse
+     
     // For each place, get the icon, name and location.
     const bounds = new google.maps.LatLngBounds();
 
