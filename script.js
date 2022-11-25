@@ -65,7 +65,6 @@ function setMarkers() {
         anchor: marker,
         map,
       });
-      isOpen = !isOpen;
       infoWindows.forEach((info) => {
         if (info.content != infoWindow.content) info.close();
       });
