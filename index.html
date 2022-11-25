@@ -119,7 +119,8 @@
       );
 
       if (user) {
-        window.location.href = `heatmap.html?login=${user ? "true" : "false"}`;
+        window.localStorage.setItem("token", md5(Date.now().toString()));
+        window.location.href = `heatmap.html`;
       } else {
         alert("Usuário ou senha Inválidos");
       }
