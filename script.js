@@ -164,7 +164,7 @@ function initialize() {
   var mapOptions = {
     zoom: 15,
     center: new google.maps.LatLng(-29.580137, -50.901022),
-    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.roadmap,
   };
   map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
   const input = document.getElementById("sasked");
