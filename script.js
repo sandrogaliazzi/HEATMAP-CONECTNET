@@ -1,7 +1,7 @@
 var map, pointarray, heatmap;
 var TILE_SIZE = 256;
 
-const kmlData = [];
+const tomodatData = [];
 let mapCoordinates = [];
 let toggleMarker = false;
 
@@ -20,15 +20,15 @@ function checkLogin() {
 
 async function loadMap() {
   try {
-    const ctos = await fetch("./kml/kml.json");
+    const result = await fetch("./kml/tomodatApiRequest.json");
 
-    const data = await ctos.json();
+    const data = await result.json();
 
-    kmlData.push(...data);
+    tomodatData.push(...data);
 
-    mapCoordinates = kmlData.map(
+    mapCoordinates = tomodatData.map(
       (data) =>
-        new google.maps.LatLng(data.coordinates.lat, data.coordinates.lng)
+        new google.maps.LatLng(data.coord.lat, data.coord.lng)
     );
 
     pointArray = new google.maps.MVCArray(mapCoordinates);
@@ -55,14 +55,14 @@ const markers = [];
 const infoWindows = [];
 
 function setMarkers() {
-  kmlData.forEach((data) => {
-    let { lat, lng } = data.coordinates;
+  tomodatData.forEach((data) => {
+    let { lat, lng } = data.coord;
     const image = "./images/cto conect.png";
     markers.push(
       new google.maps.Marker({
         position: new google.maps.LatLng(lat, lng),
         map,
-        title: data.cto,
+        title: data.name,
         icon: image,
       })
     );
@@ -72,7 +72,11 @@ function setMarkers() {
 
   markers.forEach((marker) => {
     marker.addListener("click", () => {
-      const infoWindow = getInfoWindow(marker.position, marker.title);
+      const pos = marker.position.toJSON();
+      const clients = tomodatData.filter(data => {
+        return data.name == marker.title && data.coord.lat == pos.lat && data.coord.lng == pos.lng
+      }).map(result => result.clients);
+      const infoWindow = getInfoWindow(pos, marker.title, clients);
       infoWindows.push(infoWindow);
       infoWindow.open({
         anchor: marker,
@@ -170,13 +174,6 @@ function initialize() {
   const input = document.getElementById("sasked");
   const searchBox = new google.maps.places.SearchBox(input);
 
-  // map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
-  // // Bias the SearchBox results towards current map's viewport.
-  // map.addListener('bounds_changed', () => {
-  //   searchBox.setBounds(map.getBounds());
-  // });
-  // Listen for the event fired when the user selects a prediction and retrieve
-  // more details for that place.
   searchBox.addListener("places_changed", () => {
     const places = searchBox.getPlaces();
 
@@ -226,18 +223,6 @@ function initialize() {
     map.fitBounds(bounds);
   });
 
-  // pointArray = new google.maps.MVCArray(data);
-
-  // heatmap = new google.maps.visualization.HeatmapLayer({
-  //   data: pointArray,
-  //   radius: getNewRadius(),
-  // });
-
-  // heatmap.setMap(map);
-
-  // google.maps.event.addListener(map, "zoom_changed", function () {
-  //   heatmap.setOptions({ radius: getNewRadius() });
-  // });
   document
     .getElementById("toggle-heatmap")
     .addEventListener("click", toggleHeatmap);
@@ -356,10 +341,30 @@ function logout() {
   window.location.href = "./index.html";
 }
 
-function getInfoWindow(coordinates, cto) {
-  const pos = coordinates.toJSON();
+function renderClientsList(clients) {
+  let list = "";
+
+  clients[0].forEach(client => {
+    let item = `<li>${client}</li>`;
+
+    list += item;
+  })
+
+  return list;
+}
+
+function getInfoWindow(pos, cto, clients) {
   return new google.maps.InfoWindow({
-    content: `<a href="https://www.google.com/maps/search/?api=1&query=${pos.lat}, ${pos.lng}" target="_blank">${cto}<a/>`,
+    content: `
+      <div class="text-center pb-3">
+        <a href="https://www.google.com/maps/search/?api=1&query=${pos.lat}, ${pos.lng}" target="_blank">${cto}<a/>
+      </div>
+      <div>
+        <ul>
+          ${renderClientsList(clients)}
+        </ul>
+      </div>
+    `,
   });
 }
 
