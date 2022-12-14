@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom"><Document>
+<Placemark>
+	<name>R18-CA10</name>
+	<Point><coordinates>-50.9270802309,-29.6187216635,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA3</name>
+	<Point><coordinates>-50.9260703917,-29.6156435299,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9257700497,-29.6195567115,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA12</name>
+	<Point><coordinates>-50.9270187962,-29.6201901907,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA9</name>
+	<Point><coordinates>-50.929597993,-29.6189183931,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9277708508,-29.6154982902,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9303076073,-29.615270364,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9283592939,-29.619349419,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9276878912,-29.6140342509,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R18-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9311408872,-29.6152104246,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9250508626,-29.6128690578,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA7</name>
+	<Point><coordinates>-50.9275214483,-29.6126415232,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9260133509,-29.6068370768,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA12</name>
+	<Point><coordinates>-50.9285726593,-29.6110883633,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9262740467,-29.6089842888,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9268523172,-29.6111316589,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9297333022,-29.6099378756,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9283519645,-29.6086086625,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA15</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9281747108,-29.6068947739,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R19-CA16</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9303119323,-29.6099711332,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA4</name>
+	<Point><coordinates>-50.9132421462,-29.6164738535,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9137114996,-29.6150225994,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9133610293,-29.6143785342,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA3</name>
+	<Point><coordinates>-50.913154056,-29.6131061244,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA11</name>
+	<Point><coordinates>-50.9207448858,-29.6142610286,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9173706668,-29.6137713416,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9172526496,-29.6127896286,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9178587613,-29.6145758746,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA7</name>
+	<Point><coordinates>-50.915048019,-29.6137719708,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R20-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9141234763,-29.6142798758,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA4</name>
+	<Point><coordinates>-50.9253680676,-29.6147535256,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9226053732,-29.6131001238,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA1</name>
+	<Point><coordinates>-50.9236972888,-29.6139788921,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9229793194,-29.6160834902,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.933850876,-29.6247723997,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9335461585,-29.6225401268,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9327678593,-29.6202297066,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9319334802,-29.6187383068,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA11</name>
+	<Point><coordinates>-50.9342171351,-29.6276784601,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.923733115,-29.6159796974,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9176431536,-29.6087471819,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R21-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9332778033,-29.6213542761,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA1</name>
+	<Point><coordinates>-50.9147200037,-29.6343891046,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.915385083,-29.6350650114,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9161656058,-29.635253851,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9159858978,-29.6337477867,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.918546641,-29.6351403276,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9211704855,-29.6362291345,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9212556285,-29.6368615835,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9213468236,-29.6376414051,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA5</name>
+	<Point><coordinates>-50.9152984165,-29.6326368528,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9173816406,-29.6330600463,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9214264118,-29.6336149185,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R30-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9247939252,-29.6343423096,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9244291117,-29.6371255913,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9280204779,-29.6381551813,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9222911776,-29.6426727944,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.919939054,-29.642993943,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9266048709,-29.6396897079,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9254450194,-29.6375899072,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9205905736,-29.6466516424,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9255629199,-29.6384254506,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9275189821,-29.6465778273,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9270428596,-29.6431671739,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9258290079,-29.644997385,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R31-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9207933969,-29.6478486538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9284689006,-29.6207051088,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9251610178,-29.6211774309,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9213353483,-29.6215175538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.91305473,-29.6223904531,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9282848875,-29.6271696946,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.929205912,-29.6288926869,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9128166227,-29.6268854201,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA6</name>
+	<Point><coordinates>-50.921066913,-29.6198945793,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9109251611,-29.6318846849,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9216196084,-29.6199567543,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9213319455,-29.6182634014,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9248521669,-29.6196144046,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R35-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9293371042,-29.6272794678,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA15</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.937051343,-29.6424522762,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9351577034,-29.642392831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9346244543,-29.6361055367,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9303174352,-29.6359612754,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9408487889,-29.6370515105,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9344746634,-29.6364898874,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9304509382,-29.6324138876,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9304563025,-29.6313321043,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA16</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9355275198,-29.644966375,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA17</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9326343048,-29.638604457,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA18</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9328224377,-29.6402515183,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9350591101,-29.6414134553,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R40-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9303061226,-29.6353125519,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9254649661,-29.6105241273,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9252379931,-29.6088456993,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9246137348,-29.6087630154,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.911090271,-29.6152769549,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9100495739,-29.6158552431,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9261027769,-29.6102639053,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9121278473,-29.6147048668,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9171616306,-29.6157680445,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R46-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9163992214,-29.6157683658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9256495836,-29.6080195264,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9099612039,-29.6053384061,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.911871013,-29.6075740927,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9262125262,-29.6079712082,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9259120759,-29.6088886768,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9263289672,-29.6118918396,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9255916879,-29.6074377754,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9126942837,-29.6104572228,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9128061038,-29.611590637,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R61-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.911446332,-29.6036857147,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.912743,-29.6110305381,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R50-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9133235515,-29.6140675613,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9283161417,-29.6175290266,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9304611173,-29.6181428021,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.936905712,-29.6219946538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9343330634,-29.621468509,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9394634059,-29.6328522394,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9397745829,-29.6354396527,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9456981486,-29.634963261,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9451617069,-29.6349836605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9468898312,-29.6365582201,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9462915535,-29.6341591937,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9327994395,-29.6195397918,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9531069405,-29.6438327499,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.935104959,-29.6191223049,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R51-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9372498618,-29.6220659611,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9318407973,-29.6161510503,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9294262584,-29.6162673557,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9394358079,-29.6125487666,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9399006681,-29.6162488602,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.934802841,-29.6165438086,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9406480436,-29.6180638079,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9390266392,-29.6093644111,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9386787996,-29.6061110086,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9400004521,-29.6036700757,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA15</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9430218558,-29.6119603501,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9444972732,-29.6116426775,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9461021133,-29.6121328353,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9461461558,-29.610538851,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9465779914,-29.6139261068,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9450963397,-29.6157031956,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA16</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9475021507,-29.6212410307,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA17</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9458696698,-29.6228049981,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R55-CA18</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9563553905,-29.6358544574,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9203735719,-29.6454439752,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9176003474,-29.6478572553,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9192985167,-29.6486609922,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9107325113,-29.6350353648,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9101148765,-29.6375234658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9083980693,-29.6375692605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9099486149,-29.6413994235,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9100218178,-29.6433042393,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA15</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9103021691,-29.6458871053,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA17</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9106882853,-29.6496205608,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA18</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9091741231,-29.6502438181,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA16</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff00ffff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9105188829,-29.6479395385,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9144122556,-29.6423584108,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9147191836,-29.6442694232,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9173084607,-29.6435910969,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9171609524,-29.6446640409,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9142784376,-29.6408285761,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R57-CA19</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9200386412,-29.6436681551,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA1</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9278728511,-29.6496035845,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA4</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9234188103,-29.6538502967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA2</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9256019734,-29.6519087249,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA5</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.923171514,-29.65122665,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA3</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.924276584,-29.6499552179,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA7</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9171443445,-29.6595352708,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA8</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9144527478,-29.6586891908,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA9</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9175936147,-29.6629335042,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA10</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.915370621,-29.6662215367,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA11</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9150702137,-29.6685971828,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA12</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9155717867,-29.670972015,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA18</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9131068366,-29.6730846131,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA16</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9149605442,-29.6753387203,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA17</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9154500473,-29.675637014,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA19</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9061090932,-29.6710633024,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA20</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9039660081,-29.6691802229,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA21</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ff0000ff</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9053593026,-29.6739448535,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA13</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9234607338,-29.6720665647,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA15</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.923412454,-29.6660668282,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA14</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9233897792,-29.6699758486,0</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>R58-CA6</name>
+	<Style>
+	<IconStyle>
+	<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon>
+	<color>ffc0c0c0</color>
+	</IconStyle>
+	</Style>
+	<Point><coordinates>-50.9233518734,-29.6496427819,0</coordinates></Point>
+</Placemark>
+</Document></kml>

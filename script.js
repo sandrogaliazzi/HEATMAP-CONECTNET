@@ -51,7 +51,7 @@ async function loadMap() {
   }
 }
 
-const markers = [];
+const markers = []; //problema
 const infoWindows = [];
 
 function setMarkers() {
@@ -168,7 +168,7 @@ function initialize() {
   var mapOptions = {
     zoom: 15,
     center: new google.maps.LatLng(-29.580137, -50.901022),
-    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.roadmap,
   };
   map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
   const input = document.getElementById("sasked");
@@ -180,13 +180,13 @@ function initialize() {
     if (places.length == 0) {
       return;
     }
-
+   
     // Clear out the old markers.
-    markers.forEach((marker) => {
-      marker.setMap(null);
-    });
-    markers = [];
-
+    // markers.forEach((marker) => {
+    //   marker.setMap(null);
+    // });
+    //  markers = []; //conflita com esse
+     
     // For each place, get the icon, name and location.
     const bounds = new google.maps.LatLngBounds();
 
@@ -284,24 +284,33 @@ function getLocation() {
 function showPosition(position) {
   var lat = position.coords.latitude;
   var lng = position.coords.longitude;
+  const image = "./images/street-view-icon.png";
   map.setCenter(new google.maps.LatLng(lat, lng));
-  new google.maps.Marker({
+  
+  let marker = new google.maps.Marker({
     position: new google.maps.LatLng(lat, lng),
     map,
     title: "Estou aqui!",
+    icon: image,
   });
 
+ let infosaske = new google.maps.LatLng(lat, lng).toJSON();
   let infoWindow = new google.maps.InfoWindow({
-    content: "Clique no mapa para gerar o link no maps!",
-    position: new google.maps.LatLng(lat, lng),
-  });
-
-  infoWindow.open(map);
+    content: `<a href="https://www.google.com/maps/search/?api=1&query=${infosaske.lat},${infosaske.lng}" target="_blank">Estou aqui!</a>`,
+  }); 
+  
+  marker.addListener("click", function(){
+    infoWindow.open({
+      anchor: marker,
+      map,
+    });
+  })  
 
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
     // Close the current InfoWindow.
     infoWindow.close();
+    marker.setMap(null);
     // Create a new InfoWindow.
     infoWindow = new google.maps.InfoWindow({
       position: mapsMouseEvent.latLng,
@@ -312,20 +321,21 @@ function showPosition(position) {
       '<div id="siteNotice">' +
       "</div>" +
       '<div id="bodyContent">' +
-      '<p><a href="' +
+      '<a href="' +
       "https://www.google.com/maps/search/?api=1&query=" +
       mapsMouseEvent.latLng.toJSON().lat +
       "," +
       mapsMouseEvent.latLng.toJSON().lng +
       '" target="_blank">' +
-      "Abrir no Maps</a> " +
-      "</p>" +
+      "Ir ao Maps!</a> " +
       "</div>" +
       "</div>";
     infoWindow.setContent(contentinfosaske);
 
     infoWindow.open(map);
+        
   });
+  
 }
 
 function showMarkers(array) {
