@@ -18,6 +18,7 @@
   </head>
 
   <script src="./script.js" defer></script>
+  <script src="./findClients.js" defer></script>
 
   <body onload="initialize()">
     <div class="parent">
@@ -35,6 +36,31 @@
       </div>
     </div>
     <div id="map_canvas"></div>
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          Offcanvas with body scrolling
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Try scrolling the rest of the page to see this option in action.</p>
+      </div>
+    </div>
+
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid px-4">
         <button
@@ -49,20 +75,43 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a id="toggle-heatmap" class="nav-link"
-                >Ativar/Desativar Heatmap</a
+          <div class="navbar-nav">
+            <div class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"
+                >Pesquisa Cliente</a
               >
-            </li>
-            <li class="nav-item">
-              <a id="change-gradient" class="nav-link">Mudar o gradiente</a>
-            </li>
-            <li class="nav-item">
-              <a id="change-radius" class="nav-link">Mudar o raio</a>
-            </li>
-            <li class="nav-item">
-              <a id="change-opacity" class="nav-link">Mudar opacidade</a>
+            </div>
+          </div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                >Heatmap</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" id="toggle-heatmap" class="dropdown-item"
+                    >on/off HeatMap</a
+                  >
+                </li>
+                <li>
+                  <a id="change-gradient" class="dropdown-item"
+                    >Mudar o gradiente</a
+                  >
+                </li>
+                <li>
+                  <a id="change-radius" class="dropdown-item">Mudar o raio</a>
+                </li>
+                <li>
+                  <a id="change-opacity" class="dropdown-item"
+                    >Mudar opacidade</a
+                  >
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a id="get-location" class="nav-link">Ir até mim</a>
