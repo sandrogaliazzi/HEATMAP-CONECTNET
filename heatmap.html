@@ -13,7 +13,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
-    <style></style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_NR_1sb5quUtRBp3nQF1fRhqbGcw-5VY&libraries=visualization,places,geometry&v=weekly"></script>
   </head>
 
@@ -31,6 +30,7 @@
             placeholder="CTO"
             style="width: 80px"
             onkeyup="filterCto(this.value)"
+            onchange="filterCto(this.value)"
           />
         </div>
       </div>
@@ -46,17 +46,30 @@
     >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-          Offcanvas with body scrolling
+          Pesquisar Cliente
         </h5>
         <button
           type="button"
           class="btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
+          id="closeOffCanvasBtn"
         ></button>
       </div>
       <div class="offcanvas-body">
-        <p>Try scrolling the rest of the page to see this option in action.</p>
+        <div>
+          <input
+            id="clientSearchInput"
+            class="form-control mb-5"
+            type="search"
+            placeholder="Pesquisar Cliente"
+            aria-label="Search"
+            onkeyup="findClient(this.value)"
+          />
+        </div>
+        <ul class="list-group list-group-flush" id="clientsList">
+          <!--lista de clientes será injetada aqui -->
+        </ul>
       </div>
     </div>
 
@@ -120,19 +133,27 @@
           <form class="d-flex" onsubmit="return false;" role="search">
             <input
               id="sasked"
-              class="form-control me-2"
+              class="form-control me-2 d-none"
               type="search"
               placeholder="Pesquisar"
               aria-label="Search"
             />
-            <button
-              class="btn btn-outline-success"
-              type="button"
-              onclick="logout()"
-            >
-              Sair
-            </button>
           </form>
+        </div>
+        <div>
+          <button
+            class="btn btn-outline-success pl-2"
+            onclick="window.location.reload()"
+          >
+            Atualizar ctos
+          </button>
+          <button
+            class="btn btn-outline-danger"
+            type="button"
+            onclick="logout()"
+          >
+            Sair
+          </button>
         </div>
       </div>
     </nav>

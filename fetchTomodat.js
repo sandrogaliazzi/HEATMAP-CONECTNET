@@ -4,6 +4,16 @@ const fetch = require("node-fetch");
 
 const path = require("path");
 
+const url = "http://177.73.24.22:5000/tomodat";
+
+async function getFromApi() {
+  const response = await fetch(url);
+
+  const data = await response.json();
+
+  return data;
+}
+
 
 const coord = {
   lat: "-29.582734100531393",
@@ -71,17 +81,17 @@ async function getAllClientsByCto() {
 
 }
 
-getAllClientsByCto().then(data => {
-  try {
-    fs.writeFileSync(
-      path.join(__dirname, "./kml/tomodatApiRequest.json"),
-      JSON.stringify(data)
-    );
+// getAllClientsByCto().then(data => {
+//   try {
+//     fs.writeFileSync(
+//       path.join(__dirname, "./kml/tomodatApiRequest.json"),
+//       JSON.stringify(data)
+//     );
 
-    console.log("nice");
+//     console.log("nice");
 
-  } catch (err) {
-    console.error("ops " + err.message);
-  }
-})
-  .catch(err => console.error("ops " + err.message));
+//   } catch (err) {
+//     console.error("ops " + err.message);
+//   }
+// })
+//   .catch(err => console.error("ops " + err.message));
