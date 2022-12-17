@@ -2,8 +2,14 @@ const clientsFilter = [];
 
 const list = document.getElementById("clientsList");
 
+const canvasBtn = document.getElementById("closeOffCanvasBtn");
+
+function closeCanvas() {
+  canvasBtn.click();
+}
+
 async function fecthData() {
-  const result = await fetch("./kml/tomodatApiRequest.json");
+  const result = await fetch("https://177.73.24.22:5000/tomodat");
 
   const data = await result.json();
 
@@ -66,7 +72,7 @@ function renderClientList(clients) {
       <p class="mb-0">${name}</p>
     <button 
       class="btn btn-sm btn-success" 
-      onclick="setCenter(${lat}, ${lng}); setCto('${cto}')">
+      onclick="setCenter(${lat}, ${lng}); setCto('${cto}'); closeCanvas()">
       cto
     </button>
   </li>
