@@ -20,7 +20,7 @@ function checkLogin() {
 
 async function loadMap() {
   try {
-    const result = await fetch("https://177.73.24.22:5000/tomodat");
+    const result = await fetch("./kml/tomodatApiRequest.json");
 
     const data = await result.json();
 

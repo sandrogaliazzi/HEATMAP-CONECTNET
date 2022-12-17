@@ -81,17 +81,17 @@ async function getAllClientsByCto() {
 
 }
 
-// getAllClientsByCto().then(data => {
-//   try {
-//     fs.writeFileSync(
-//       path.join(__dirname, "./kml/tomodatApiRequest.json"),
-//       JSON.stringify(data)
-//     );
+getAllClientsByCto().then(data => {
+  try {
+    fs.writeFileSync(
+      path.join(__dirname, "./kml/tomodatApiRequest.json"),
+      JSON.stringify(data)
+    );
 
-//     console.log("nice");
+    console.log("nice");
 
-//   } catch (err) {
-//     console.error("ops " + err.message);
-//   }
-// })
-//   .catch(err => console.error("ops " + err.message));
+  } catch (err) {
+    console.error("ops " + err.message);
+  }
+})
+  .catch(err => console.error("ops " + err.message));
