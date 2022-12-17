@@ -1,4 +1,4 @@
-var map, pointarray, heatmap;
+var map, pointArray, heatmap;
 var TILE_SIZE = 256;
 
 const tomodatData = [];
@@ -20,7 +20,7 @@ function checkLogin() {
 
 async function loadMap() {
   try {
-    const result = await fetch("./kml/tomodatApiRequest.json");
+    const result = await fetch("https://177.73.24.22:5000/tomodat");
 
     const data = await result.json();
 
@@ -50,6 +50,8 @@ async function loadMap() {
     console.error(err);
   }
 }
+
+//atualizar dados
 
 const markers = []; //problema
 const infoWindows = [];
@@ -160,7 +162,7 @@ function getNewRadius() {
   var totalPixelSize = Math.floor(
     desiredRadiusPerPointInMeters * pixelsPerMeter
   );
-  console.log(totalPixelSize);
+
   return totalPixelSize;
 }
 
@@ -180,13 +182,13 @@ function initialize() {
     if (places.length == 0) {
       return;
     }
-   
+
     // Clear out the old markers.
     // markers.forEach((marker) => {
     //   marker.setMap(null);
     // });
     //  markers = []; //conflita com esse
-     
+
     // For each place, get the icon, name and location.
     const bounds = new google.maps.LatLngBounds();
 
@@ -286,7 +288,7 @@ function showPosition(position) {
   var lng = position.coords.longitude;
   const image = "./images/street-view-icon.png";
   map.setCenter(new google.maps.LatLng(lat, lng));
-  
+
   let marker = new google.maps.Marker({
     position: new google.maps.LatLng(lat, lng),
     map,
@@ -294,17 +296,17 @@ function showPosition(position) {
     icon: image,
   });
 
- let infosaske = new google.maps.LatLng(lat, lng).toJSON();
+  let infosaske = new google.maps.LatLng(lat, lng).toJSON();
   let infoWindow = new google.maps.InfoWindow({
     content: `<a href="https://www.google.com/maps/search/?api=1&query=${infosaske.lat},${infosaske.lng}" target="_blank">Estou aqui!</a>`,
-  }); 
-  
-  marker.addListener("click", function(){
+  });
+
+  marker.addListener("click", function () {
     infoWindow.open({
       anchor: marker,
       map,
     });
-  })  
+  })
 
   // Configure the click listener.
   map.addListener("click", (mapsMouseEvent) => {
@@ -333,9 +335,9 @@ function showPosition(position) {
     infoWindow.setContent(contentinfosaske);
 
     infoWindow.open(map);
-        
+
   });
-  
+
 }
 
 function showMarkers(array) {
@@ -394,7 +396,12 @@ function filterCto(query) {
   }
 }
 
+function setCenter(lat, lng) {
+  return map.setCenter({ lat, lng });
+}
+
 window.initialize = initialize;
+
 
 ///https://www.google.com/maps/search/?api=1&query=36.26577,-92.54324
 ///assim deve ser a url pra compartilhar
